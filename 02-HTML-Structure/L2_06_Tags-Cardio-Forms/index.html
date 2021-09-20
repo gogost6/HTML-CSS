@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Customer Details</legend>
+        <div>
+          <label for="">First Name</label>
+          <input type="text" value="George" /> <br />
+          <label for="">Last Name</label>
+          <input type="text" value="Devis" /><br />
+          <input type="radio" /> Male <input type="radio" /> Female
+          <input type="radio" /> Other <br />
+          <label for="">Preferred contact method:</label>
+          <input type="radio" /> Email <input type="radio" />Phone <br />
+          <label for="">Email</label>
+          <input type="email" value="youremail@abv.bg" /> <br />
+          <label for="">Phone</label>
+          <input type="text" value="+359888788888" /> <br />
+          <label for="">Town</label>
+          <input list="towns">
+          <datalist id="towns">
+            <option value="Varna">
+            <option value="Sofia">
+          </datalist>
+          <br />
+          <label for="">Age</label>
+          <input type="number" min="18" max="70" /> <br />
+          <textarea
+            name=""
+            id=""
+            cols="20"
+            rows="5"
+            placeholder="More information..."
+          ></textarea
+          ><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">I agree the Terms and Conditions</label> <br />
+          <button type="submit">Send</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
