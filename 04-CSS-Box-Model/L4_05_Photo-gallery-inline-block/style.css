@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+ul.gallery {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    margin: 45px;
+    border: 0.4rem black solid;
+}
+
+img {
+    width: 100%;
+}
