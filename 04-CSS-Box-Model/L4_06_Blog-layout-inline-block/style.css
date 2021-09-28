@@ -1,0 +1,13 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+aside {
+    float: right;
+}
+
+article, img {
+    max-width: 900px;
+}
