@@ -1,0 +1,22 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+.viewport {
+    height: 100vh;
+    position: relative;
+} 
+
+section.card {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(90deg, rgba(9,0,36,1) 0%, rgba(26,9,121,1) 38%, rgba(0,212,255,1) 100%);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
