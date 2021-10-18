@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.gallery ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  border: 8px solid black;
+  padding: 22px;
+  margin: 15px;
+}
+
+img {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+header {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+li {
+    padding: 20px;
+    text-decoration: none;
+}
