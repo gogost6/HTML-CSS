@@ -1,0 +1,129 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+* {
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h6 {
+  padding-left: 13px;
+  padding-top: 16px;
+  border-left: 4px solid lightgray;
+}
+
+.logo h1 {
+  margin-right: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: block;
+  list-style-type: none;
+}
+
+nav ul li {
+  background-color: lightgrey;
+  display: inline-block;
+  padding: 15px;
+}
+
+nav ul li:hover {
+  background-color: #E24E2A;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+img {
+  max-height: 510px;
+  width: 100%;
+  object-fit: none;
+}
+
+div.image {
+  margin-bottom: 0;
+}
+
+.about {
+  background-color: #E24E2A;
+  text-align: center;
+  padding: 25px 150px;
+  line-height: 1.8;
+  margin-top: -3px;
+}
+
+.card i {
+ background-color: #E24E2A;
+ padding: 10px;
+ margin: 20px 20px;
+ font-size: 88px;
+ color: white;
+ text-align: center;
+}
+
+.line {
+  color: white;
+  border-bottom: 2px solid #434343;
+  padding-bottom: 20px;
+}
+
+.card :nth-child(3) {
+  color: #5F605D;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  background-color: #383838;
+}
+
+.card {
+  max-width: 30%;
+  margin: 58px 25px;
+  text-align: center;
+}
+
+.sub {
+  margin: 83px 0;
+  display: block;
+  text-align: center;
+}
+
+.sub button {
+  background-color: #1B9772;
+  color: white;
+  padding: 14px 62px;
+  border: none;
+  margin-top: 15px;
+}
+
+h3 {
+  color: white;
+}
+
+footer {
+  display: block;
+  background-color: #1B9772;
+  padding: 50px 0;
+  text-align: center;
+}
