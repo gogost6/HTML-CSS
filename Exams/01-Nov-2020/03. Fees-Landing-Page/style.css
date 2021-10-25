@@ -1,0 +1,203 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+html {
+  font-family: "Lato";
+}
+
+body {
+  margin: 0 5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 9px 0;
+}
+
+.logo {
+  width: 10%;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav li {
+  margin: 0 5px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.taxes {
+  position: relative;
+  text-align: center;
+  background-color: #54546d;
+  padding: 16px;
+}
+
+.taxes h1 {
+  color: white;
+  padding-bottom: 137px;
+}
+
+.cards-container {
+  display: flex;
+  width: 97%;
+  justify-content: space-between;
+  position: absolute;
+  top: 118px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 32.5%;
+  background: white;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: -1px 1px 6px 2px gray;
+}
+
+.card.one .card-content button {
+  margin: 17px 0;
+  background-color: #9A5DC6;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 20px;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card footer {
+  height: 86px;
+}
+
+.card footer .special {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 8px 18px;
+  width: 100%;
+  height: 100%;
+}
+
+.special .left,
+.special .right {
+  font-size: 13px;
+}
+
+.card footer .special .left {
+  border-right: 2px solid white;
+  position: relative;
+  height: 72px;
+  padding: 2px 25px;
+}
+
+.card.one footer {
+  background: linear-gradient(90deg, rgba(6,158,64,1) 0%, rgba(40,185,95,1) 50%, rgba(73,213,126,1) 100%);
+}
+
+.card footer .special,
+div.card:nth-child(1) > footer:nth-child(2) {
+  position: relative;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 86px;
+  color: white;
+}
+
+.card.two footer .special {
+  background: linear-gradient(90deg, rgba(76,108,136,1) 0%, rgba(87,131,171,1) 50%, rgba(97,154,206,1) 100%);
+}
+
+.card.three footer .special {
+  background: linear-gradient(90deg, rgba(75,56,166,1) 0%, rgba(107,90,195,1) 50%, rgba(139,124,224,1) 100%);
+}
+
+.comparison {
+  margin: 192px 95px 53px 95px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 45px;
+}
+
+td {
+  text-align: left;
+  padding: 12px 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffffe7;
+}
+
+tr td:nth-child(1) {
+  padding-left: 10px;
+}
+
+tr td:nth-child(2),
+tr td:nth-child(3) {
+  padding: 0 40px;
+  text-align: center;
+}
+
+.fas.fa-check {
+  color: green;
+}
+
+.fas.fa-times {
+  color: red;
+}
+
+.finance {
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.finance img {
+  align-self: center;
+  float: right;
+}
+
+.page-footer {
+  position: absolute;
+  background-color: #54546D;
+  color: #706F8B;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  left: 0px;
+}

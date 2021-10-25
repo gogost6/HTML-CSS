@@ -1,0 +1,35 @@
+@media all and (max-width: 600px) {
+  .logo {
+    width: 29%;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    left: 54px;
+    width: 81%;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .comparison {
+    margin: 769px 0px 53px 20px;
+  }
+
+  .finance img {
+    align-self: auto;
+    float: right;
+    width: 68%;
+    height: 35%;
+  }
+
+  .card footer .special .left {
+    padding: 2px 29px;
+  }
+
+  .card footer .special .right {
+    padding-right: 47px;
+  }
+}
