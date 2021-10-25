@@ -1,0 +1,132 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+html {
+  font-family: "Lato";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-c {
+  position: relative;
+  filter: opacity(20%);
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  width: 96%;
+  background-color: white;
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(146, 141, 141);
+  box-shadow: -1px 0px 3px 0px rgb(146, 141, 141);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nav img {
+  width: 12%;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul li {
+  margin: 10px;
+}
+
+.nav ul li:nth-child(7) {
+  background-color: #42abf8;
+  box-shadow: 0px 0px 3px 0px #42abf8;
+  border-radius: 50%;
+  color: white;
+  padding: 7px;
+}
+
+.nav ul li:hover {
+  border-top: 2px solid #42abf8;
+}
+
+.content-flex {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  top: 145px;
+  margin: 0 55px;
+}
+
+.content-flex .content-main {
+  width: 49%;
+  margin-right: 130px;
+  background-color: #29394b;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.content-flex .images {
+  width: 30%;
+}
+
+.content-flex footer {
+  flex-basis: 100%;
+}
+
+.content-flex footer p {
+  font-style: italic;
+}
+
+.images {
+  display: flex;
+  align-items: flex-end;
+}
+
+.images img {
+  width: 85%;
+}
+
+.images :nth-child(1) {
+  height: 80%;
+}
+
+.content-flex p {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.diploma {
+  margin: 15px 35px;
+}
+
+.diploma h1 {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.diploma article {
+    background-color: #F4F5F7;
+    padding: 20px;
+}
