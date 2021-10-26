@@ -1,0 +1,52 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+html {
+  font-family: "Lato";
+}
+
+body {
+  margin: 0 80px;
+  padding: 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+}
+
+.content-container .content {
+  width: 100%;
+  margin-right: 150px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li img {
+  float: left;
+  margin-right: 10px;
+}
+
+.main-img {
+  width: 100%;
+}
