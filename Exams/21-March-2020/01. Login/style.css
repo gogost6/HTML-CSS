@@ -1,0 +1,85 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  position: relative;
+  filter: brightness(50%);
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+form div i {
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+form input {
+  border: none;
+  margin: 11px 0;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+form input:placeholder-shown {
+    font-size: 1em;
+}
+
+form button {
+  border: none;
+  background-color: #D41872;
+  width: 97px;
+  align-self: center;
+  padding: 6px 0;
+  margin: 10px 0;
+  border-radius: 17px;
+  color: white;
+  font-size: 1em;
+}
