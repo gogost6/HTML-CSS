@@ -1,0 +1,179 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+html {
+  font-family: "Lato";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #9f9f9f;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products .red,
+.products .black {
+  display: flex;
+  width: 95%;
+}
+
+.products .red img {
+  width: 50%;
+}
+
+.products .black img {
+  margin-left: 50px;
+  height: 95%;
+}
+
+.products .red .content,
+.products .black .content {
+  padding: 100px;
+  width: 602px;
+}
+
+.products .black .content {
+  margin-left: 84px;
+  width: 100%;
+}
+
+.products .red .content h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.products .black .content .pb {
+  font-size: 62px;
+  margin: 0;
+}
+
+.right-p {
+  text-align: right;
+}
+
+.products .red .content p,
+.products .black .content p {
+  line-height: 1.5;
+}
+
+.products .red .content button,
+.products .black .content button {
+  background-color: #ff0000;
+  border: none;
+  border-radius: 22px;
+  margin-top: 10px;
+  padding: 10px 50px;
+  color: white;
+}
+
+.products .black .content footer button {
+  float: right;
+  margin-right: 78px;
+  margin-top: 41px;
+}
+
+.products .black .content footer h1 {
+  float: left;
+  margin-left: 19px;
+  font-size: 42px;
+  text-align: center;
+}
+
+.free-trial {
+  background-color: #575757;
+  padding: 84px 0;
+  text-align: center;
+}
+
+.free-trial div {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+}
+
+.free-trial div img {
+  width: 93px;
+  margin-right: 23px;
+}
+
+.free-trial button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.give-life {
+    display: flex;
+}
+
+.give-life .girl-img {
+    width: 52%;
+}
+
+.gl-content {
+    display: flex;
+    background: #DADADA;
+}
+
+.gl-content img {
+    width: 280px;
+    height: 95%;
+    margin-top: 26px;
+}
+
+.gl-content h1{
+    font-size: 87px;
+    margin-top: 61px;
+    margin-left: 67px;
+    margin-bottom: 0;
+}
+
+.gl-content p {
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 67px;
+}
+
+.red-span {
+    color: red;
+}
+
+
+.page-footer {
+    text-align: center;
+    font-size: 32px;
+}
