@@ -1,0 +1,21 @@
+@media all and (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery > * {
+    width: 100%;
+  }
+
+  .spotlight {
+    text-align: center;
+  }
+
+  .spotlight > * {
+    width: 100%;
+  }
+
+  .spotlight.alt {
+    text-align: center;
+  }
+}
