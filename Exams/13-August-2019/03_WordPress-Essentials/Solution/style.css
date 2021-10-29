@@ -1,0 +1,166 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.first-header {
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #234465;
+  padding: 2px 190px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-wraper {
+  margin-left: 15px;
+}
+
+.btn {
+  color: white;
+  background: #ffa000;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 13px;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav ul li {
+  margin: 0 13px;
+  font-style: bold;
+}
+
+.nav ul li a {
+  color: #829eb2;
+  text-decoration: none;
+}
+
+.second-header {
+  width: 33%;
+  margin: 0 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-header :nth-child(1) {
+  color: #cf8b24;
+  margin: 0;
+}
+
+.second-header :nth-child(2) {
+  margin: 0;
+  color: #234465;
+  border-bottom: 2px solid #234465;
+  padding: 15px 0;
+}
+
+.course-details {
+  color: white;
+  background: url("../Requirements-and-Resources/images/details-background.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.course-details h1 {
+  margin: 0;
+  font-size: 45px;
+}
+
+.ul-flex {
+  list-style-type: none;
+  display: flex;
+  margin-top: 0;
+}
+
+.course-details ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 7px;
+}
+
+.course-details ul li i {
+  margin: 0 8px;
+  font-size: 25px;
+}
+
+.btn.wider {
+  font-size: 20px;
+  padding: 5px 65px;
+  border-radius: 20px;
+}
+
+main {
+  margin: 30px 190px;
+}
+
+.container {
+  background: #f2f2f2;
+  padding: 15px 35px;
+  margin: 15px auto;
+}
+
+.container.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h1 {
+  margin: 0;
+}
+
+.title-h1 {
+  color: #3d5773;
+  margin: 0;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #ffa000;
+}
+
+.about p {
+  margin: 25px auto;
+}
+
+.ul-flex.orange {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ul-flex.orange li {
+    margin: 7px 0;
+}
+
+.ul-flex.orange li i{
+    color: #ffa000;
+    margin: 0 7px;
+}
+
+.ul-flex.orange li {
+    flex-basis: 50%;
+}
+
