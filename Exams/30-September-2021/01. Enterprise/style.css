@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container.flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(246, 248, 249, 255);
+  margin: 50px 138px;
+}
+
+.content {
+  flex-basis: 50%;
+  padding: 4% 141px;
+}
+
+.content p {
+  color: rgba(100, 111, 121, 255);
+  line-height: 1.8;
+}
+
+.img {
+  flex-basis: 50%;
+}
+
+.img img {
+  width: 57%;
+  margin: 0 90px;
+}
+
+.btn {
+  padding: 9px 19px;
+}
+
+.btn.blue {
+  color: white;
+  background: rgba(120, 110, 255, 255);
+  border: none;
+  margin-right: 10px;
+}
+
+.btn.white {
+  padding: 8px 19px;
+}
